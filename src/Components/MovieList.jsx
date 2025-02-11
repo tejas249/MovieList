@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchMovies } from '../tmdb';
+import { fetchMovies } from '../tmdb.js';
 import MovieCard from './MovieCard';
 import Pagination from './Pagination';
 
